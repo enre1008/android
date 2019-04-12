@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/url"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBaseline="@+id/etUrl"
+        />
+    <EditText
+        android:id="@+id/etUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvUrl"
+        android:layout_alignParentTop="true"
+        android:hint="@string/et_hint"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etUrl"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="103dp"
+        android:id="@+id/radioGroup"/>
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton"
+            android:layout_marginBottom="37dp"
+            android:layout_above="@+id/radio1"
+            android:layout_alignStart="@+id/radio1" />
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton"
+            android:layout_above="@+id/radioGroup"
+            android:layout_alignStart="@+id/etUrl"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="21dp" />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="RadioButton"
+            android:layout_above="@+id/radioGroup"
+            android:layout_alignStart="@+id/etUrl"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="21dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="64dp"
+        android:layout_toEndOf="@+id/radio1" />
+
+
+</RelativeLayout>

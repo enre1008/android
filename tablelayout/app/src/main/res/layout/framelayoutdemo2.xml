@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    >
+
+    <TextView
+        android:id="@+id/tvFinish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/finish"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvTouch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/slip"
+        android:text="@string/touch"
+        android:gravity="bottom|center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        />
+
+</FrameLayout>

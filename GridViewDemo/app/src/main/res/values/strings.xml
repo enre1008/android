@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GridViewDemo</string>
+    <string-array name="str_data">
+        <item>AAA</item>
+        <item>BBB</item>
+        <item>CCC</item>
+        <item>DDD</item>
+    </string-array>
+</resources>

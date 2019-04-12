@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunny_joy.a7.MainActivity">
+
+    <CheckBox
+        android:id="@+id/chkJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:layout_marginStart="58dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="34dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="58dp" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_marginStart="58dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="58dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/chkArm"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/chkJava"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <CheckBox
+        android:id="@+id/chkArm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="嵌入式开发"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/tvChoise"
+        android:layout_marginStart="58dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="71dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/chkArm"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvChoise"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:text=""
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="210dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="58dp" />
+
+</android.support.constraint.ConstraintLayout>

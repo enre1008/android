@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tablelayout</string>
+
+    <string name="finish">恭喜你完成验证</string>
+    <string name="touch">请用手指滑动屏幕完成验证</string>
+
+
+</resources>

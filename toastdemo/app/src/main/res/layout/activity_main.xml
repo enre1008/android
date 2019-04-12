@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sunny_joy.toastdemo.MainActivity"
+    android:layout_marginLeft="50dp"
+    >
+
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="displayToast"
+        android:text="显示Toast"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnConToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="displayToast"
+        android:text="构造显示toast"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintTop_toBottomOf="@id/btnToast"
+        />
+
+    <Button
+        android:id="@+id/btnConToast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="构造显示toast2"
+        app:layout_constraintTop_toBottomOf="@id/btnConToast"
+        android:layout_marginLeft="50dp"
+        android:onClick="displayToast"
+        />
+
+    <Button
+        android:id="@+id/btndisplayDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示对话框"
+        app:layout_constraintLeft_toRightOf="@id/btnConToast2"
+        android:layout_marginLeft="20dp"
+        android:onClick="displayDialog"
+         />
+
+    <Button
+        android:id="@+id/btndisplayDialog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示多个按钮"
+        app:layout_constraintTop_toBottomOf="@id/btndisplayDialog"
+        app:layout_constraintLeft_toRightOf="@id/btnConToast"
+        android:layout_marginLeft="50dp"
+        android:onClick="displayDialog"
+         />
+
+
+</android.support.constraint.ConstraintLayout>

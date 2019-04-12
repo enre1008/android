@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">toastdemo</string>
+    <string name="displayName">显示toast</string>
+</resources>

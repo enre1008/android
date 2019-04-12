@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">baiduSpeechDemo</string>
+    <string name="start_record">开始录音</string>
+    <string name="stop_record">停止录音</string>
+    <string name="parse_process">解析过程</string>
+    <string name="parse_result">解析结果</string>
+</resources>

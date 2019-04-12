@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">layoutdemo</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+    <string name="username">帐  户：</string>
+    <string name="username_hint">请输入用户名或手机号</string>
+    <string name="password">密  码：</string>
+    <string name="password_hint">请输入密码</string>
+</resources>

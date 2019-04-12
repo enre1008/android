@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <!-- 标题-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:background="@color/title_color_top_bg"
+        android:id="@+id/top"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="@string/login"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="@string/register"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            />
+    </RelativeLayout>
+    <!-- 登录与密码 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top"
+        android:orientation="vertical"
+        >
+        <!-- 用户名 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/username_height"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/username"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:id="@+id/tvUserName"
+                android:textSize="@dimen/title_text_size"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tvUserName"
+                android:hint="@string/username_hint"
+                android:maxLines="1"
+                android:background="@color/transparent"
+                android:textColor="@color/edit_hint_color"
+                android:textSize="@dimen/title_text_size"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/blue"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="-4dp"
+            >
+        </View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/username_height"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/password"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:id="@+id/tvPassword"
+                android:textSize="@dimen/title_text_size"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/tvPassword"
+                android:hint="@string/password_hint"
+                android:maxLines="1"
+                android:background="@color/transparent"
+                android:textColor="@color/edit_hint_color"
+                android:textSize="@dimen/title_text_size"
+                />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/blue"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="-4dp"
+            >
+        </View>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

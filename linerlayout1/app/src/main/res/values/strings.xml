@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">linerlayout1</string>
+    <string name="hor">水平</string>
+    <string name="ver">垂直</string>
+    <!-- 演示gravity -->
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="center">Center</string>
+</resources>

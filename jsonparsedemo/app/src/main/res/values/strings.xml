@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">jsonparsedemo</string>
+    <string name="parser">JOSN解析</string>
+</resources>

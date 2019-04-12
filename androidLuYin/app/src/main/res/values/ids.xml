@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Startrecording" type="id"/>
+    <item name="Stoprecording" type="id" />
+    <item name="Playtape" type="id" />
+
+</resources>
